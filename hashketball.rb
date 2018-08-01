@@ -172,4 +172,4 @@ def player_by_number(x)
   #return player name
 end
 
-print player_by_number(33)
+puts player_by_number(33)

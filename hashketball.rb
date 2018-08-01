@@ -167,7 +167,7 @@ def player_biggest_shoe_size
 end
 
 def player_by_number(x)
-  players.find{|player, stats| stats.fetch(:number) == x}
+  players.find{|player, stats| stats.fetch(:number) == x}[0]
   #compare jersey numbers to (a number)
   #return player name
 end

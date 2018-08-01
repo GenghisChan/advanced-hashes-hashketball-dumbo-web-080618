@@ -169,7 +169,7 @@ end
 def player_by_number(x)
   players.find{|player, stats| stats.fetch(:number) == x}
   #compare jersey numbers to (a number)
-  #return player name 
+  #return player name
 end
 
-puts player_by_number(33)
+print player_by_number(33)
